@@ -3,11 +3,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background-image.jpeg");
 }
 
 h1 {
-  color: #878787;
+  color: #212121;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -24,10 +24,15 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: #212121;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+
+.logo {
+  display: block;
+  margin: 20px;
 }
 
 li:first-letter {
@@ -41,8 +46,8 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 5px solid #dadde1;
+  border-radius: 10px;
 }
 
 .overview {
