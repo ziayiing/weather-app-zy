@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../images/background.avif");
+  background-image: url("../images/background.jpg");
 }
 
 h1 {
@@ -28,10 +28,6 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
-}
-
-.logo {
-  display: block;
 }
 
 li:first-letter {
@@ -81,21 +77,7 @@ li:first-letter {
   text-decoration: none;
 }
 
-.weather-forecast {
-  margin-top: 20px;
+small {
+  display: block;
   text-align: center;
-  color: #000;
-}
-
-.weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.5;
-}
-
-.weather-forecast-temperatures {
-  font-size: 13px;
 }
