@@ -1,10 +1,9 @@
-.logo {
-  margin-top: 30px;
-  margin-left: 120px;
-}
-
 body {
   font-family: arial, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/background.avif");
 }
 
 h1 {
@@ -29,6 +28,10 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+
+.logo {
+  display: block;
 }
 
 li:first-letter {
